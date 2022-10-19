@@ -1,0 +1,98 @@
+.ad-category{
+    max-width: 80%;
+    text-align: center;
+    background-color: white;
+    color: #222;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.ad-card{
+    width: 8.25%;
+    height: auto;
+    padding: 18px 28px 15px;
+    border-radius: 6.2px;
+    border: solid 1px #e5e5e5;
+    background-color: #fff;
+    margin: 5px 0;
+    text-align: center;
+    
+}
+
+.ad-card:hover {
+    background: #00c0f5;
+    color: white;
+  }
+
+.category-name{
+  max-width: 100%;
+  min-width: 24px;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+
+.category-icon{
+    width: 100%;
+    height: 68%;
+   
+}
+
+.btn-container {
+    border-radius: 6.2px;
+    border: solid 1px #e5e5e5;
+    background-color: #fff;
+    padding: 30px 0px 20px;
+    margin-left: 11px;
+    width: 97px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-container:hover {
+    border-radius: 6.2px;
+    box-shadow: 2px 2px 24px 0 rgba(0, 0, 0, 0.12);
+    background-color: #00c0f5;
+    padding: 30px 0px 20px;
+    margin-left: 11px;
+    width: 97px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-container:hover .text {
+    color: white;
+  }
+
+  .btn-container:hover img {
+    filter: brightness(0) invert(1);
+  }
+
+  .text {
+    width: auto;
+    height: 15px;
+    margin-bottom: -45px;
+    padding: 0 0 2px 0;
+    font-family: Outfit;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+  }
+
+  .category-text{
+    width: 50%;
+    /* height: 15px; */
+    /* margin-bottom: -45px;
+    padding: 0 0 2px 0; */
+    font-family: Outfit;
+    font-size: 0.75rem;
+    text-align: center;
+  }

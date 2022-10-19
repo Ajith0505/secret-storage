@@ -1,0 +1,13 @@
+/* .div-main{
+    display: flex;
+} */
+
+.content{
+    min-height: 350px;
+    height: auto;
+}
+
+.main-gallery{
+    height: 300px;
+    width: 100%;
+}

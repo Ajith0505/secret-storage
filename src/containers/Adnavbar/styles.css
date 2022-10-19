@@ -1,0 +1,7 @@
+.content-ads{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}

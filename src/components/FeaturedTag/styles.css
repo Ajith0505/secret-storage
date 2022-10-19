@@ -1,0 +1,11 @@
+.featured{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color:#2a2300;
+    background-color: #ffd100;
+    border-radius: 4px;
+    padding: 2px 8px 3px;
+    position: absolute;
+    left: 0;
+    top: 0.75rem;
+}

@@ -1,0 +1,46 @@
+.ad-box{
+    width: 90%;
+    margin-right: 0.83%;
+    margin-bottom: 0.75rem;
+}
+
+.img-box{
+    border-radius: 8px;
+    position: relative;
+}
+
+.detail-box{
+    position: relative;
+    margin-top: 0.75rem;
+}
+
+.detail-box h2{
+    font-size: 0.93rem;
+    font-weight: 500rem;
+    margin:0;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.ad-location{
+    font-size: 0.81rem;
+    font-weight: 300;
+    color: #909090;
+    margin:0;
+    display: inline-block;
+} 
+
+.ad-money{
+    position: absolute;
+    bottom:10px;
+    right: 0;
+    font-weight: bold;
+    color: #3d2a7d;
+}
+
+.ad-image{
+    width:100%;
+    object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
+}

@@ -1,0 +1,274 @@
+.side-reset-drawer {
+    /* In commentaries are the way to make it slide from left to right */
+    position: absolute;
+    height: 95vh;
+    background: white;
+    top: 79px;
+    right: 0;
+    /* right: 100%; */
+    width: 30%;
+    z-index: 200;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    /* transform: translateX(0%); */
+    transition: transform 1s ease-out;
+}
+
+.side-reset-drawer.open {
+    transform: translateX(0);
+    /* transform: translateX(100%); */
+    transition: transform 1s ease-out;
+}
+
+/* .body.side-reset-drawer.open {
+    transform: translateX(0);
+    overflow: hidden;
+    position: fixed;
+} */
+
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 79px;
+    right: 0;
+}
+
+
+
+
+.resetpwd-header {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    top: 2%;
+    position: absolute;
+}
+
+.arrow-resetpwd {
+    height: 32px;
+    width: 32px;
+    margin: 0 12px 28px 0;
+    border: solid 1px #d9d9d9;
+    background-color: #fff;
+    align-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.reset-pwd-arrow-back {
+    margin-left: 13%;
+    margin-right: 2%;
+}
+
+
+.cross-resetpwd {
+    height: 32px;
+    width: 32px;
+    /* margin: 0 1px 28px 70px; */
+    background-color: #00c0f5;
+    align-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    border: solid 1px #d9d9d9;
+
+}
+
+.reset-pwd-cross-button {
+    width: 10%;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.reset-password-span {
+    width: 12%;
+    height: 25px;
+    font-family: Outfit;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222;
+
+}
+
+.reset-password-term {
+    margin: 4px 101px 31px 12px;
+}
+
+
+.reset-pwd-fields {
+    width: 70%;
+    height: 60px;
+    padding-top: 20px;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: solid 1px #bbb;
+    background-color: #fff;
+}
+
+.reset-pwd-fields-error {
+    width: 70%;
+    height: 60px;
+    padding-top: 20px;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: solid 1px #ed202a;
+    background-color: #feeaeb;
+}
+
+.edit-reset-form {
+    position: absolute;
+    top: 7%;
+    height: 500px;
+    width: 100%;
+
+}
+
+
+.reset-pwd-formfield {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-fields-form-reset {
+    width: 75%;
+    border-style: hidden;
+    position: absolute;
+    top: 40%;
+    margin-top: 0;
+}
+
+.input-fields-form-reset-error{
+    width: 75%;
+    border-style: hidden;
+    position: absolute;
+    top: 40%;
+    margin-top: 0;
+    background-color: #feeaeb;
+}
+
+.legend-terms {
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.19px;
+    color: #999;
+}
+.legend-terms-error {
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.19px;
+    color: #ed202a;
+}
+
+.cancel-edit-profile {
+    width: 152px;
+    height: 44px;
+    margin: 0 16px 0 0;
+    padding: 13px 50px 11px 52px;
+    border-radius: 8px;
+    border: solid 1px #00c0f5;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cancel-reset {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00c0f5;
+}
+
+
+.reset-profile-password {
+    width: 152px;
+    height: 44px;
+    margin: 0 0 0 16px;
+    padding: 13px 58px 11px;
+    border-radius: 8px;
+    background-color: #00c0f5;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.reset-pro-pwd {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.updated-password {
+    width: 100%;
+    height: 58px;
+    margin: 0 0 14px;
+    padding: 20px 28px 6px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+    background-color: #4eb04e;
+    color: #fff;
+    display: flex;
+
+}
+
+.updated-password-red {
+    width: 100%;
+    height: 58px;
+    margin: 0 0 14px;
+    padding: 20px 28px 6px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+    background-color: #db1709;
+    color: #fff;
+    display: flex;
+
+}
+
+.check-image {
+    margin-left: 40%;
+    height: auto;
+}
+
+.reset-drawer-bottom {
+    position: absolute;
+    top: 53%;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.pwdnew-yup-reset {
+    color: red;
+    font-size: 11px;
+    margin-top: 0;
+    margin-left: -25%;
+}
